@@ -65,7 +65,7 @@
         <div class="container">
           <h1 class="visually-hidden">Промо сайта</h1>
           <p class="hero-text">Эффективные решения для вашего бизнеса</p>
-          <button class="button primary" type="button">Заказать услугу</button>
+          <button class="button primary" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -139,6 +139,7 @@
                 width="370"
                 height="294"
               />
+              <p class="apps-development-desc">Десктопные приложения</p>
             </li>
             <li class="apps-development-item">
               <img
@@ -147,6 +148,7 @@
                 width="370"
                 height="294"
               />
+              <p class="apps-development-desc">Мобильные приложения</p>
             </li>
             <li class="apps-development-item">
               <img
@@ -155,6 +157,7 @@
                 width="370"
                 height="294"
               />
+              <p class="apps-development-desc">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -451,5 +454,17 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-button" type="button" data-modal-close>
+          <svg class="close-icon" width="18" height="18">
+            <use href="./images/icons/sprite.svg#icon-close"></use>
+            </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
