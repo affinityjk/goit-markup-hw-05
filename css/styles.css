@@ -765,7 +765,7 @@ img {
   transform: translateY(100%);
 
   opacity: 0;
-  visibiity: hidden;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -774,7 +774,7 @@ img {
   transform: translateY(0%);
 
   opacity: 1;
-  visibiity: visible;
+  visibility: visible;
   pointer-events: auto;
 }
 
